@@ -1,4 +1,4 @@
-import MovieScore from "components/MovieScore";
+
 import Pagination from "components/Pagination";
 import MovieCards from "components/MovieCards";
 
