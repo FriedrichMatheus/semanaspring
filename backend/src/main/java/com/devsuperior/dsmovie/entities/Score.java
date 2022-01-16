@@ -12,14 +12,14 @@ public class Score {
 	private ScorePk id = new ScorePk();
 	private Double value;
 	
-	private Score() {
+	public Score() {
 	}
 	
 	public void setMovie(Movie movie) {
 		id.setMovie(movie);
 	}
 	
-	public void serUser(User user) {
+	public void setUser(User user) {
 		id.setUser(user);
 	}
 
